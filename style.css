@@ -1,0 +1,268 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+/*  */
+.image {
+  height: 100vh;
+  width: 40%;
+  background: url("bravingbird-FaM4HDuHk_o-unsplash.jpg");
+  background-size: 85vh 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  background-color: black;
+  position: relative;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  position: relative;
+  width: 5rem;
+  background-color: black;
+  margin: 5px;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+
+/*  */
+.content {
+  height: 100vh;
+  width: 60%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-text p {
+  width: 50rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 2rem;
+}
+
+.top-text p:last-child {
+  font-style: italic;
+}
+
+
+/*  ----------------------------- */
+.form-inputs {
+  width: 40rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-inputs input {
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+  margin-right: 3rem;
+  border-color: #6c787c;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.form-inputs input:valid {
+  border-color: green;
+  box-shadow: 0px 0px 2px green;
+}
+
+.form-inputs input:invalid {
+  border-color: red;
+  box-shadow: 0px 0px 2px red;
+  outline: none;
+}
+
+.form-inputs input:focus:invalid {
+
+  outline: none;
+}
+
+.form-inputs input:focus:valid {
+
+  outline: none;
+}
+
+
+
+/* ------------------------------- */
+.white-space {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.white-space p:first-child {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+input[type="checkbox"] {
+  margin: 0rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+}
+
+.white-space p:nth-child(3) {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-left: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+label a {
+  text-decoration: none;
+  color: #2f88a8;
+}
+
+button {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  border-color: black;
+  background-color: #aed0db;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #cfe5ec;
+  transition: 0.2s;
+}
+
+/* -------------------------------------- */
+.bottom-text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.bottom-text p {
+  margin: 2rem;
+  margin-top: 2rem;
+}
+
+.bottom-text a {
+  color: #2f88a8;
+  text-decoration: none;
+}
